@@ -1,0 +1,33 @@
+@import "nool.css";
+@import "fonts.css";
+@import "header.scss";
+@import "advantage.scss";
+@import "about_us.scss";
+@import "proect.scss";
+@import "contract.scss";
+@import "work_step.scss";
+@import "goods.scss";
+@import "popup.scss";
+@import "media.scss";
+body {
+    min-width: 360px;
+    font-family: "Montserrat_Regular";
+    color: #444444;
+    // overflow-x: hidden;
+}
+
+.shadov {
+    box-shadow: 0px 7px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 20px 20px 0px;
+}
+
+.heading {
+    >p {
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+    }
+    >p:nth-child(2) {
+        font-family: Montserrat_Bold;
+    }
+}

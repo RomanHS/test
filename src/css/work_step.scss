@@ -1,0 +1,29 @@
+.work_step {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 100px;
+    height: 600px;
+    background: url(../img/work_step.jpg) center center/cover no-repeat;
+    .background_card {
+        padding-top: 30px;
+        max-width: 1170px;
+        height: 515px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #F8F8F8;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+        .step_list {
+            max-width: 928px;
+            display: flex;
+            .step {
+                width: 209px;
+                font-size: 200px;
+                font-family: Montserrat_Bold;
+            }
+            .step:first-child {
+                color: burlywood;
+            }
+        }
+    }
+}

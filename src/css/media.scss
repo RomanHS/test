@@ -1,0 +1,110 @@
+@media (max-width: 1120px) {
+    .nav_bar {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .left {
+        flex-direction: column;
+    }
+    .text_with_logo,
+    .work_time,
+    .for_consultant {
+        margin-top: 20px;
+    }
+    .decor_line {
+        display: none;
+    }
+    .call_button {
+        flex-direction: center;
+    }
+    .left_column {
+        display: flex;
+        width: max-content;
+        flex-direction: column;
+        .title {
+            p:first-child {
+                line-height: 40px;
+                text-shadow: -0 -1px 2px #FFFFFF, 0 -1px 2px #FFFFFF, -0 1px 2px #FFFFFF, 0 1px 2px #FFFFFF, -1px -0 2px #FFFFFF, 1px -0 2px #FFFFFF, -1px 0 2px #FFFFFF, 1px 0 2px #FFFFFF, -1px -1px 2px #FFFFFF, 1px -1px 2px #FFFFFF, -1px 1px 2px #FFFFFF, 1px 1px 2px #FFFFFF, -1px -1px 2px #FFFFFF, 1px -1px 2px #FFFFFF, -1px 1px 2px #FFFFFF, 1px 1px 2px #FFFFFF;
+            }
+            p:last-child {
+                margin-top: 7px;
+                text-shadow: -0 -1px 2px #FFF, 0 -1px 2px #FFF, -0 1px 2px #FFF, 0 1px 2px #FFF, -1px -0 2px #FFF, 1px -0 2px #FFF, -1px 0 2px #FFF, 1px 0 2px #FFF, -1px -1px 2px #FFF, 1px -1px 2px #FFF, -1px 1px 2px #FFF, 1px 1px 2px #FFF, -1px -1px 2px #FFF, 1px -1px 2px #FFF, -1px 1px 2px #FFF, 1px 1px 2px #FFF;
+            }
+        }
+        .title {
+            br {
+                display: inherit;
+            }
+            p:first-child {
+                margin-top: 30px;
+            }
+        }
+    }
+    .header_advantage {
+        p {
+            text-shadow: -0 -1px 2px #FFF, 0 -1px 2px #FFF, -0 1px 2px #FFF, 0 1px 2px #FFF, -1px -0 2px #FFF, 1px -0 2px #FFF, -1px 0 2px #FFF, 1px 0 2px #FFF, -1px -1px 2px #FFF, 1px -1px 2px #FFF, -1px 1px 2px #FFF, 1px 1px 2px #FFF, -1px -1px 2px #FFF, 1px -1px 2px #FFF, -1px 1px 2px #FFF, 1px 1px 2px #FFF;
+            img {
+                background-color: #fff;
+                border-radius: 100px;
+                box-shadow: -0 -1px 2px #FFF, 0 -1px 2px #FFF, -0 1px 2px #FFF, 0 1px 2px #FFF, -1px -0 2px #FFF, 1px -0 2px #FFF, -1px 0 2px #FFF, 1px 0 2px #FFF, -1px -1px 2px #FFF, 1px -1px 2px #FFF, -1px 1px 2px #FFF, 1px 1px 2px #FFF, -1px -1px 2px #FFF, 1px -1px 2px #FFF, -1px 1px 2px #FFF, 1px 1px 2px #FFF;
+            }
+        }
+    }
+    .about_us {
+        .img {
+            width: auto;
+        }
+        display: flex;
+        flex-direction: column;
+        .right {
+            width: inherit;
+            display: flex;
+        }
+    }
+    .proect {
+        height: 450px;
+    }
+    .contract {
+        div {
+            display: block;
+            .advantage_list {
+                padding-bottom: 0;
+                .block {
+                    width: calc(100% - 30px);
+                    display: flex;
+                    div {
+                        display: flex;
+                    }
+                    img {
+                        display: block;
+                        width: auto;
+                    }
+                }
+            }
+            >img {
+                display: block;
+                width: 100%;
+                max-width: 543px;
+            }
+        }
+    }
+    .advantage_items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .advantage_title {
+        font-size: 22px;
+    }
+    .advantage_item {
+        width: 50%;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .advantage_item {
+        width: 100%;
+    }
+}

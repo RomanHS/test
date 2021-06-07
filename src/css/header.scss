@@ -1,0 +1,122 @@
+$max_width: 1400px;
+header {
+    height: 770px;
+    background: url(../img/hero_fon.jpg) center center/cover no-repeat fixed;
+}
+
+.hero {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: url(../img/hero.png) center center/cover no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nav_bar {
+    max-width: $max_width;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+}
+
+.logo {
+    margin-top: 46px;
+    font-family: "ProximaNova_Bold";
+    font-size: 34px;
+    line-height: 46px;
+    height: 46px;
+    color: #222222;
+}
+
+.decor_line {
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 1px;
+    height: 60px;
+    line-height: 46px;
+    background-color: #666666;
+}
+
+.text_with_logo {
+    margin-top: 52px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #444444;
+}
+
+.work_time,
+.for_consultant {
+    margin-top: 49px;
+    text-align: center;
+    p:first-child {
+        font-size: 16px;
+    }
+    p:last-child {
+        font-family: Montserrat_Bold;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+}
+
+.call_button,
+.btn {
+    margin-top: 45px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: Montserrat_Bold;
+    color: #fff;
+    font-size: 14px;
+    background: linear-gradient(to right, #FF5C00, #F8323D);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.left_column {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $max_width;
+    .title {
+        br {
+            display: none;
+        }
+        p:first-child {
+            margin-top: 82px;
+            font-family: Montserrat_Bold;
+            font-size: 32px;
+            color: #F8323D;
+            letter-spacing: 0.07em;
+        }
+        p:last-child {
+            margin-top: 10px;
+            line-height: 25px;
+            color: #444444;
+            font-size: 18px;
+        }
+    }
+    .header_advantage {
+        padding-top: 10px;
+        p {
+            margin-top: 20px;
+            line-height: 24px;
+        }
+        img {
+            margin-right: 16px;
+        }
+    }
+}
+
+.temp {
+    height: 1000px;
+}
